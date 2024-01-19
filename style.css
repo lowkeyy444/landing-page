@@ -21,11 +21,11 @@ body {
     font-size: 24px;
     font-weight: 900;
     color: #F9FAF8;
-    margin-left: 80px;
+    margin-left: 150px;
 }
 .right-links ul {
     display: flex;
-    margin-right: 50px;
+    margin-right: 150px;
     flex-direction: row;
     gap: 20px;
     
@@ -47,7 +47,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
-    margin-left: 80px;
+    margin-left: 150px;
     
 }
 
@@ -61,16 +61,23 @@ body {
     font-size: 18px;
     color: #E5E7EB;
 }
-.image {
-    display: flex;
-    border: 2px solid black;
-    
 
-}
 button {
     background-color: #3882F6;
     border: none;
     color: white;
     border-radius: 4px;
+    width: 80px;
+    height: 20px;
+}
+
+.hero-img {
+    display: flex;
+}
+
+.image {
+    
+    margin-left: 120px;
+    margin-top: 80px;
     
 }
