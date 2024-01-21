@@ -8,7 +8,7 @@ body {
 
 .first-part {
     background-color: #1f2937;
-    height: 400px;  
+    height: 500px;  
 }
 
 .header {
@@ -19,7 +19,7 @@ body {
 }
 .header-logo {
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 800;
     color: #F9FAF8;
     margin-left: 150px;
 }
@@ -78,6 +78,46 @@ button {
 .image {
     
     margin-left: 120px;
-    margin-top: 80px;
+    margin-top: 60px;
+    border: 2px solid black;
+    width: 500px;
+    height: 220px;
+    background-color: lightgrey;
+}
+.second-head{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 50px auto;
+
+}
+.box{
+    display: flex;
+    justify-content:center;
+    gap:50px
+}
+.box div {
+    height: 150px;
+    width: 150px;
+    box-sizing: border-box;
+    border: 4px solid cornflowerblue;
+    border-radius: 15px;
+    
+   
+
+
+
+}
+.second-text {
+    display: flex;
+    justify-content:center;
+    gap:40px;
+    text-align: center;
+    font-size: 18px;
+    color: lightslategray;
+    margin-top: 8px;
+    margin-bottom: 100px;
     
 }
