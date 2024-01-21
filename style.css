@@ -135,6 +135,7 @@ button {
 .quote-footer {
     margin-left: 500px;
     font-weight: bold;
+    font-size: 30px;
 }
 
 .fourth-part {
@@ -145,8 +146,8 @@ button {
 }
 .fourth-box {
     display: flex;
-    height: 100px;
-    width: 700px;
+    height: 120px;
+    width: 750px;
     background-color: #3882F6;
     align-items: center;
     justify-content:space-around;
@@ -160,4 +161,14 @@ button {
     width: 80px;
     height: 20px;
     text-align: center;
+}
+
+.footer {
+    height:80px;
+    background-color:#1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+
 }
