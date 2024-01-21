@@ -8,7 +8,7 @@ body {
 
 .first-part {
     background-color: #1f2937;
-    height: 500px;  
+    height: 480px;  
 }
 
 .header {
@@ -117,7 +117,47 @@ button {
     text-align: center;
     font-size: 18px;
     color: lightslategray;
-    margin-top: 8px;
+    margin-top: 8 px;
     margin-bottom: 100px;
     
+}
+.third-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color:#E5E7EB;
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+}
+.quote-footer {
+    margin-left: 500px;
+    font-weight: bold;
+}
+
+.fourth-part {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-box {
+    display: flex;
+    height: 100px;
+    width: 700px;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content:space-around;
+    gap: 20px;
+    border-radius: 10px;
+    color:#E5E7EB;
+}
+.button2{
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 80px;
+    height: 20px;
+    text-align: center;
 }
